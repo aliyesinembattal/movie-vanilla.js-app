@@ -1,0 +1,48 @@
+.movie {
+  width: 600px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-image {
+  width: 45% !important;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 100% !important;
+  padding-top: 10px;
+}
+.search-wrapper {
+  margin-right: auto !important;
+  margin-left: auto !important;
+  max-width: 300px;
+  margin-bottom: 10px;
+}
+.search-icon {
+  position: absolute !important;
+  margin-top: 15px;
+}
+.toastify-center {
+  top: 156px !important;
+}
+@media screen and (min-width: 992px) {
+  .card {
+    margin-right: auto !important;
+    margin-left: auto !important;
+    height: 500px;
+    max-width: 800px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .search-wrapper {
+    margin-right: auto !important;
+    margin-left: auto !important;
+    max-width: 300px;
+    margin-bottom: 10px;
+  }
+  .search-icon {
+    position: absolute;
+    margin-top: 15px;
+  }
+}
